@@ -25,4 +25,13 @@ It is a simple and secure user authentication system built using **Node.js**, **
 
 ---
 
-## 📂 Folder Structure
+---
+
+## ⚙️ Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**
+   ```bash
+   git clone  https://github.com/kavyabangera4/PRODIGY_FS_01
+   cd Prodigy_FS_01
