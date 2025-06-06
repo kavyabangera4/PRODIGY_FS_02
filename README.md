@@ -38,3 +38,23 @@ Follow these steps to set up the project locally:
 2. **Install Dependencies**
    ```bash
    npm install
+3. **Set up MySQL Database**
+- Start MySQL using XAMPP or any local server.
+- Create a database (e.g., auth_db)
+- Import SQL File (auth_db.sql)
+4. **Configure DB Connection**
+5. **Start the Server**
+  ```bash
+  node app.js
+6. **Open your browser and visit**
+   ```bash
+   http://localhost:3000
+
+# ✅ Future Improvements
+- Add email validation
+- Use JWT tokens for advanced security
+- Add password reset functionality
+- Implement user roles (admin/user)
+
+# 📬 Contact
+Made with ❤️ by Kavya
