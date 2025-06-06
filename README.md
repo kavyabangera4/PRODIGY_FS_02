@@ -35,3 +35,6 @@ Follow these steps to set up the project locally:
    ```bash
    git clone  https://github.com/kavyabangera4/PRODIGY_FS_01
    cd Prodigy_FS_01
+2. **Install Dependencies**
+   ```bash
+   npm install
