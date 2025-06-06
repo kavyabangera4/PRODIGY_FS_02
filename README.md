@@ -56,5 +56,5 @@ Follow these steps to set up the project locally:
    - Add password reset functionality
    - Implement user roles (admin/user)
 
-# 📬 Contact
+
 Made with ❤️ by Kavya
