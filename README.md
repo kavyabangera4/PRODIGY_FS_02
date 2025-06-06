@@ -1,4 +1,3 @@
-# PRODIGY_FS_01
 # 🔐 User Authentication System – Prodigy Infotech Task 01
 
 It is a simple and secure user authentication system built using **Node.js**, **Express**, and **MySQL**, allowing users to register, log in, and access a protected dashboard.
@@ -46,6 +45,7 @@ Follow these steps to set up the project locally:
 5. **Start the Server**
   ```bash
   node app.js
+```
 6. **Open your browser and visit**
    ```bash
    http://localhost:3000
