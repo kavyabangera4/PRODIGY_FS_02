@@ -42,12 +42,12 @@ npm install
 
 ### 4. Run the Server
 ```bash
-node app.js
+python app.py
 ```
 
 
 ### 5. Open in Browser
-Visit: [http://localhost:3000](http://localhost:3000)
+Visit: [[http://localhost:3000](http://localhost:3000)](http://127.0.0.1:5000)
 
 ---
 
