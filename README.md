@@ -31,7 +31,7 @@ cd PRODIGY_FS_02
 
 ### 2. Install Dependencies
 ```bash
-npm install
+pip install
 ```
 
 ### 3. Configure MySQL
