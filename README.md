@@ -1,6 +1,6 @@
 # 🔐 User Authentication System – Prodigy Infotech Task 01
 
-It is a simple and secure user authentication system built using **Node.js**, **Express**, and **MySQL**, allowing users to register, log in, and access a protected dashboard.
+It is a simple and secure user authentication system built using **Python**, **Flask**, and **MySQL**, allowing users to register, log in, and access a protected dashboard.
 
 ---
 
