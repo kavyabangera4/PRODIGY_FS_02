@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+
+<div class="bg-white p-8 shadow-lg rounded w-96">
+
+    <h2 class="text-2xl font-bold text-center mb-6">Admin Login</h2>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for cat,msg in messages %}
+            <div class="p-3 mb-3 text-white rounded 
+                        {% if cat=='error' %} bg-red-500 {% else %} bg-green-600 {% endif %}">
+                {{ msg }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <form method="POST">
+
+        <input name="email" class="w-full mb-3 p-2 border rounded" placeholder="Email" required>
+        <input name="password" type="password" class="w-full mb-3 p-2 border rounded" placeholder="Password" required>
+
+        <button class="w-full bg-blue-600 text-white py-2 rounded">Login</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
